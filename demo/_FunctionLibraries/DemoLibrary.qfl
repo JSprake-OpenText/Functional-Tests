@@ -1,0 +1,14 @@
+﻿Function f_timeStamp()
+
+Dim sDate : sDate = Day(Now)
+Dim sMonth : sMonth = Month(Now)
+Dim sYear : sYear = Year(Now)
+Dim sHour : sHour = Hour(Now)
+Dim sMinute : sMinute = Minute(Now)
+Dim sSecond : sSecond = Second(Now)
+
+'Create TimeStamp
+f_timeStamp = Int(sDate & sMonth & sYear & sHour & sMinute & sSecond)
+
+End Function
+

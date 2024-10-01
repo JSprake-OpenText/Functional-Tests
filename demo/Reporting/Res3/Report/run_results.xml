@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="User">
+<Data>
+    <Name>My message, iteration 1</Name>
+    <Description>ColA: ColA Row2 data
+ColB: ColB Row2 data</Description>
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>1379ca9f231d4a2fb6555ece1e1e8cab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>My pass message</Name>
+    <Description>This step passed</Description>
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>1379ca9f231d4a2fb6555ece1e1e8cab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>My warning message</Name>
+    <Description>This step is a warning</Description>
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>1379ca9f231d4a2fb6555ece1e1e8cab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>My fail message</Name>
+    <Description>This step failed</Description>
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>1379ca9f231d4a2fb6555ece1e1e8cab</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'iteration'</Name>
+    <ErrorText>Type mismatch: 'iteration'</ErrorText>
+    <Description>&lt;BR/&gt;Line (13): &amp;quot;iteration&amp;quot;.</Description>
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Examples]]></ModuleName>
+          <FileName><![CDATA[Examples]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[iteration]]></Scripts>
+          <LineNo><![CDATA[13]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>5182d6548ccc43d788e430759e69cb8b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\13ae04be-f171-427e-8b75-b55abbc8ba33.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2024-09-29 20:15:36</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>9845d3e8ce10491287ae493d0d4434bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\950d78ff-05cc-42f6-b546-09e1720b8553.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Examples</Name>
+    <Description />
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>83517eb695f3474d939e1d56d36a118f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2024-09-29 20:15:30</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9c4b032b5b8042dfb38c74d9ddb1e539</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Reporting</Name>
+    <ToolName>OpenText UFT One</ToolName>
+    <ToolVersion>24.2</ToolVersion>
+    <ToolVersionStringLiteral>24.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2024-09-29 20:15:27</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>eb181ddf75024494ab7fe5743a6d60b3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United Kingdom)</Locale>
+      <User>demo</User>
+      <CpuInfo>13th Gen Intel(R) Core(TM) i7-13800H</CpuInfo>
+      <NumberOfCores>6</NumberOfCores>
+      <TotalMemory>16383</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2019 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2024-09-29 20:15:27</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>OpenText UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>24.2</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>24.2</OrchestrationToolVersionStringLiteral>
+    <CustomFields>
+      <Field name="Run info title 2" value="Run info statement 1" />
+      <Field name="Run info title 2" value="Run info statement 2" />
+    </CustomFields>
+  </GeneralInfo>
+</Results>

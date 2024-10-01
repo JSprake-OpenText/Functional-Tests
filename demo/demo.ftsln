@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "Reporting", "Reporting\Test.tsp", "80F94D84-EE24-44FF-B7B7-CAEB8EA39166"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\demo\Reporting\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "SAP Login Logoff", "..\..\..\AppData\Local\Temp\1\TD_80\18.00.0.0_952\34802a0a\Test\72\72\72\Test.tsp", "960DD0CF-2692-4BAA-A045-1A0B155ECFB2"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = [QC-TEST];;Subject\SAP Tests\SAP Demo\SAP Login Logoff;;
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "SAP FK01", "SAP FK01\Test.tsp", "632C323D-BD56-461F-8288-E53D40AB1ACB"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\demo\SAP FK01\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "SAP FK03", "SAP FK03\Test.tsp", "E440304D-EE36-4A42-B410-DC777DEB9C57"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\demo\SAP FK03\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "AI demo", "AI demo\Test.tsp", "472EF951-D90B-478E-A309-786C98E61397"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\demo\AI demo\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "MyFlight", "MyFlight\Test.tsp", "A1DE48BD-0F2A-4298-8961-80A8C50EDCC9"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\demo\MyFlight\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "SAP VA01", "SAP VA01\Test.tsp", "22488B18-2BAE-43C3-8858-36FDAE678E06"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\demo\Documents\UFT One\demo\SAP VA01\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		80F94D84-EE24-44FF-B7B7-CAEB8EA39166.Debug|Any CPU.Build.0 = Debug|Any CPU
+		80F94D84-EE24-44FF-B7B7-CAEB8EA39166.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		80F94D84-EE24-44FF-B7B7-CAEB8EA39166.Release|Any CPU.Build.0 = Release|Any CPU
+		80F94D84-EE24-44FF-B7B7-CAEB8EA39166.Release|Any CPU.ActiveCfg = Release|Any CPU
+		960DD0CF-2692-4BAA-A045-1A0B155ECFB2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		960DD0CF-2692-4BAA-A045-1A0B155ECFB2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		960DD0CF-2692-4BAA-A045-1A0B155ECFB2.Release|Any CPU.Build.0 = Release|Any CPU
+		960DD0CF-2692-4BAA-A045-1A0B155ECFB2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		632C323D-BD56-461F-8288-E53D40AB1ACB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		632C323D-BD56-461F-8288-E53D40AB1ACB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		632C323D-BD56-461F-8288-E53D40AB1ACB.Release|Any CPU.Build.0 = Release|Any CPU
+		632C323D-BD56-461F-8288-E53D40AB1ACB.Release|Any CPU.ActiveCfg = Release|Any CPU
+		E440304D-EE36-4A42-B410-DC777DEB9C57.Debug|Any CPU.Build.0 = Debug|Any CPU
+		E440304D-EE36-4A42-B410-DC777DEB9C57.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		E440304D-EE36-4A42-B410-DC777DEB9C57.Release|Any CPU.Build.0 = Release|Any CPU
+		E440304D-EE36-4A42-B410-DC777DEB9C57.Release|Any CPU.ActiveCfg = Release|Any CPU
+		472EF951-D90B-478E-A309-786C98E61397.Debug|Any CPU.Build.0 = Debug|Any CPU
+		472EF951-D90B-478E-A309-786C98E61397.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		472EF951-D90B-478E-A309-786C98E61397.Release|Any CPU.Build.0 = Release|Any CPU
+		472EF951-D90B-478E-A309-786C98E61397.Release|Any CPU.ActiveCfg = Release|Any CPU
+		A1DE48BD-0F2A-4298-8961-80A8C50EDCC9.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A1DE48BD-0F2A-4298-8961-80A8C50EDCC9.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A1DE48BD-0F2A-4298-8961-80A8C50EDCC9.Release|Any CPU.Build.0 = Release|Any CPU
+		A1DE48BD-0F2A-4298-8961-80A8C50EDCC9.Release|Any CPU.ActiveCfg = Release|Any CPU
+		22488B18-2BAE-43C3-8858-36FDAE678E06.Debug|Any CPU.Build.0 = Debug|Any CPU
+		22488B18-2BAE-43C3-8858-36FDAE678E06.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		22488B18-2BAE-43C3-8858-36FDAE678E06.Release|Any CPU.Build.0 = Release|Any CPU
+		22488B18-2BAE-43C3-8858-36FDAE678E06.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(Function Libraries) = postProject
+		DemoLibrary = C:\Users\demo\Documents\UFT One\demo\_FunctionLibraries\DemoLibrary.qfl
+	EndGlobalSection
+EndGlobal

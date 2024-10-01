@@ -1,0 +1,14 @@
+﻿Function f_importData()
+	If DataTable.GetSheet("Global").GetRowCount = 0 Then
+	'If Environment.Value("TestIteration") = 1
+		DataTable.ImportSheet "C:\Users\demo\Documents\UFT One\demo\DataTables\Suppliers.xlsx", "Global", "Global"
+	End If
+End Function
+
+Function f_exportData()
+	If DataTable.GetSheet("Global").GetRowCount > 0 Then
+		DataTable.ExportSheet "C:\Users\demo\Documents\UFT One\demo\DataTables\Suppliers.xlsx", "Global", "Global"
+	End If
+End  Function
+	
+
